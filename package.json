@@ -1,7 +1,7 @@
 {
   "name": "redux-todomvc",
   "version": "1.0.0",
-  "description": "Companion repository for the \"Getting Started with React, Redux and Immutable: a Test-Driven TodoMVC Tutorial\" article.",
+  "description": "Simple todo.",
   "main": "index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --require ./test/setup.js 'test/**/*.@(js|jsx)'",
@@ -9,15 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phacks/redux-todomvc.git"
+    "url": "git+https://github.com/kubaapk/simplereacttodo"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/phacks/redux-todomvc/issues"
-  },
-  "homepage": "https://github.com/phacks/redux-todomvc#readme",
   "devDependencies": {
     "babel-core": "^6.5.2",
     "babel-loader": "^6.2.4",
